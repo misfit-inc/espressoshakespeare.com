@@ -1,0 +1,214 @@
+/*
+Name: Sliding Login Panel with mootools 1.2
+Author: daiv mowbray
+Author URI: http://wp-superslider.com/
+Date: may 31, 2009
+Version: 0.3
+
+	The CSS, XHTML and design is released under Creative Common License 3.0:
+	http://creativecommons.org/licenses/by-sa/3.0/
+
+*/ 
+
+/***** clearfix *****/
+.clear {clear: both;height: 0;line-height: 0;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {display: block;}
+
+
+/* sliding panel */
+#toppanel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1000px;
+    z-index: 999;
+    text-align: left;
+}
+#toppanel div {
+    float: left;
+}
+#loginpanel {
+    display:none;
+	background: #4B8CC4;
+	color: #353535;
+	height: 1000px;
+	width: 250px;
+    border-top: 1px solid #a4c4e0;
+}
+.tab_corner
+{
+    background:transparent url(images/bottom_corner.png) no-repeat scroll 0 0px !important;
+    background:transparent url(images/bottom_corner.gif) no-repeat scroll 0 0;
+    bottom: -10px;
+    height: 10px;
+    position:absolute;
+    right: 28px;
+    width:10px;
+}
+#panel_bottom{
+    background:transparent url(images/bottom_corner.png) repeat-x scroll 0 -11px !important;
+     background:transparent url(images/bottom_corner.gif) repeat-x scroll 0 -11px;
+    bottom:-10px;
+    height:10px;
+    padding:0;
+    position:absolute;
+    width:100%;
+    margin-left:-38px;
+
+}
+#loginpanel h1
+{
+	font-size: 1.6em;
+	padding: 10px 0 10px;
+	color: white;
+	text-align: left;
+	padding-left: 30px;
+	background-image: url(../logo_mini.png);
+	background-repeat: no-repeat;
+	background-position: left 10px;
+}
+#loginpanel h2{
+	font-size: 1.2em;
+	padding: 10px 0 5px;
+	color: #f9f9f9;
+	margin: 0;
+}
+#loginpanel p {
+	margin: 5px 0;
+	padding: 0;
+	color: silver;
+}
+#loginpanel a {
+	color: #1d3c56;
+}
+#loginpanel a:hover {
+	color: white;
+}
+#loginpanel a-lost-pwd {
+	display: block;
+	float: left;
+}
+#loginpanel ul {
+	margin: 0 0 5px 0;
+	padding: 0;
+	line-height: 1.6em;
+	list-style: disc;
+}
+#loginpanel .content {
+	padding: 15px;
+}
+#loginpanel .second {
+	margin-bottom: 5px;
+	padding: 10px ;
+	border-bottom: 1px solid #a4c4e0;
+}
+#loginpanel .first {
+	border-top: 1px solid #a4c4e0;
+}
+#loginpanel .content label {
+	padding-top: 8px;
+	display: block;
+}
+#loginpanel .content input.field {
+	border: 2px #999 inset;
+	background: #e4e4e4;
+	margin: 4px 0px 0 0;
+	color: #333;
+	padding: 3px ;
+}
+#loginpanel .content input:focus.field {
+	background: #fff;
+}
+/* BUTTONS */
+.bt_login, .bt_register {
+	cursor: pointer;
+	font-weight: bold;
+	padding: 2px 10px;
+	margin: 20px 0px;
+	background: transparent url(images/bt_back.jpg) repeat-x 0 0;
+	border: 1px outset gray;
+}
+
+.bt_login:hover, .bt_register:hover{
+	background-position: 0 -30px;
+}
+/* Panel Tab/button */
+.logintab
+{
+	background: url(images/vertical_tab.png) repeat-y -107px 0px !important;
+	background: url(images/vertical_tab.gif) repeat-y -107px 0px;
+	width: 38px;
+	z-index: 999;
+	overflow: visible;
+	height: 1000px;
+
+}
+.logintab ul.login {
+	padding:0px;
+	position: relative;
+	line-height: 20px;
+	margin: 0;
+  	color: white;
+}
+.login li
+{
+	background: url(images/vertical_tab.png) repeat-y -79px 0px !important;
+	background: url(images/vertical_tab.gif) repeat-y -79px 0px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width: 38px;
+}
+.login li.ss_right {
+  	background: url(images/vertical_tab.png) no-repeat 0px 0px !important;
+  	background: url(images/vertical_tab.gif) no-repeat 0px 0px;
+    height: 40px;
+}
+.login li.ss_left {
+    background: url(images/vertical_tab.png) no-repeat -38px 0px !important;
+    background: url(images/vertical_tab.gif) no-repeat -38px 0px;
+    height: 20px;
+}
+.login .notext{
+    margin-left: 6px;
+    display:block;
+    height: 20px;
+    width: 20px;
+    text-indent: -9000px;
+}
+#toppanel .open{
+    background: transparent url(images/vert_button.png) no-repeat 0 0px !important;
+    background: transparent url(images/vert_button.gif) no-repeat 0 0;
+}
+#toppanel .open:hover
+{
+	background-position: -20px 0;
+}
+#toppanel .close
+{
+	background: transparent url(images/vert_button.png) no-repeat 0px -20px !important;
+	background: transparent url(images/vert_button.gif) no-repeat 0px -20px;
+}
+#toppanel .close:hover
+{
+	background-position: -20px -20px;
+}
+#toppanel .logout{
+    background: transparent url(images/vert_button.png) no-repeat 0 -40px !important;
+    background: transparent url(images/vert_button.gif) no-repeat 0 -40px;
+}
+#toppanel .logout:hover{
+    background-position: -20px -40px;
+
+}
+.logintab a {
+	color: #1d3c56;
+	cursor: pointer;
+	margin: 0px ;
+}
+.logintab a:hover {
+	color: #fff;
+
+}
+.logintab .sep {display:none;}

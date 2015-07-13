@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://aqa.org.uk/eaqa/es/schema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://aqa.org.uk/eaqa/es/schema" targetNamespace="http://aqa.org.uk/eaqa/es/schema">
+  <wsdl:types xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://aqa.org.uk/eaqa/es/schema" elementFormDefault="qualified" targetNamespace="http://aqa.org.uk/eaqa/es/schema">
+    <xsd:element name="UserRequest" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:sequence xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <xsd:element name="authenticationToken" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+                <xsd:element name="clientId" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="UserResponse" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:sequence xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <xsd:element name="UserDetails" type="UserDetails" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="UserDetails" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <xsd:sequence xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:element name="userId" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+            <xsd:element name="userName" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+            <xsd:element name="firstName" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+            <xsd:element name="lastName" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+            <xsd:element name="emailAddress" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+            <xsd:element name="centreNumber" type="xsd:string" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="UserResponse" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <wsdl:part element="tns:UserResponse" name="UserResponse" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UserRequest" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <wsdl:part element="tns:UserRequest" name="UserRequest" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="UserResource" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <wsdl:operation name="User" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+      <wsdl:input message="tns:UserRequest" name="UserRequest" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    </wsdl:input>
+      <wsdl:output message="tns:UserResponse" name="UserResponse" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UserResourceSoap11" type="tns:UserResource" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+    <wsdl:operation name="User" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+      <soap:operation soapAction="" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+      <wsdl:input name="UserRequest" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+        <soap:body use="literal" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+      </wsdl:input>
+      <wsdl:output name="UserResponse" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+        <soap:body use="literal" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserResourceService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <wsdl:port binding="tns:UserResourceSoap11" name="UserResourceSoap11" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+      <soap:address location="http://servername:port/eAQA_WS_ES/UserService/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

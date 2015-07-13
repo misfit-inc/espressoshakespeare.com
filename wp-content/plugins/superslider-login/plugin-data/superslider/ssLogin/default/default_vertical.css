@@ -1,0 +1,156 @@
+/*
+Name: Sliding Login Panel with mootools 1.2
+Author: daiv mowbray
+Author URI: http://wp-superslider.com/
+Date: may 31, 2009
+Version: 1.0
+
+	The CSS, XHTML and design is released under Creative Common License 3.0:
+	http://creativecommons.org/licenses/by-sa/3.0/
+
+*/ 
+
+/***** clearfix *****/
+.clear {clear: both;height: 0;line-height: 0;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{display: block;}
+
+/* sliding panel */
+#toppanel {
+    position: absolute;   /*Panel will overlap  content */
+    /*position: relative;*/   /*Panel will "push" the content down */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;    
+    margin: 0px auto;
+}
+#loginpanel {
+    display:none;
+	background: #fff url(images/panel_bg.png) repeat-x 0 0 ;
+	color: #999999;
+	width: 100%;
+}
+#loginpanel h1 {
+	font-size: 1.6em;
+	padding: 5px 0 10px;
+	color: #3875d7;
+	text-align: left;
+}
+#loginpanel h2{
+	font-size: 1.2em;
+	padding: 10px 0 5px;
+	color: #3875d7;
+	margin: 0;
+}
+.tab_corner, #panel_bottom{ display: none;}
+#loginpanel a {
+	color: #15ADFF;
+}
+#loginpanel a:hover {
+	color: white;
+}
+.lost-pwd {
+	display: block;
+	float: left;
+}
+#loginpanel ul {
+	margin: 0 0 5px 0;
+	padding: 0;
+	line-height: 1.6em;
+	list-style: disc;
+}
+#loginpanel .content {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: left;
+}
+#loginpanel .second {
+	float: left;
+	margin-bottom: 10px;
+	padding: 0 15px;
+	border-right: 1px solid #3875d7;
+	min-height: 220px;
+	min-width: 100px;
+	max-width: 210px;
+}
+#loginpanel .first {
+	border-left: 1px solid #3875d7;
+	width: 280px;
+}
+#loginpanel .content label {
+	padding-top: 8px;
+	display: block;
+}
+#loginpanel .content input.field {
+	border: 2px #999 inset;
+	background: #e4e4e4;
+	margin: 4px 0px 0 0;
+	color: #333;
+	padding: 3px ;
+}
+#loginpanel .content input:focus.field {
+	background: #dfdfdf;
+}
+/* BUTTONS */
+.bt_login, .bt_register {
+	cursor: pointer;
+	font-weight: bold;
+	padding: 2px 10px;
+	margin: 20px 0px;
+	background: transparent url(images/bt_back.jpg) repeat-x 0 0;
+	border: 1px outset gray;
+}
+
+.bt_login:hover, .bt_register:hover{
+	background-position: 0 -30px;
+}
+/* Panel Tab/button */
+.logintab {
+  	background: url(images/top_tab.png) repeat-x 0px -84px!important;
+	height: 36px;
+	position: relative;
+    top: -4px; /* make more or less visible the top bar */
+    z-index: 999;
+}
+.logintab ul.login {
+	display: block;
+	position: relative;
+  	float: right;
+  	clear: right;
+  	height: 42px;
+	line-height: 42px;
+	margin: 0;
+	right: 10px;
+  	color: white;
+}
+.login li {
+  	background: url(images/top_tab.png) repeat-x 0px -54px!important;
+  	background: url(images/top_tab.gif) repeat-x 0px -54px;
+  	height: 40px;	
+	padding: 0;
+	margin: 0;
+  	display: block;
+	float: left;
+}
+.login li.ss_right {
+  	background: url(images/top_tab.png) no-repeat right 0px!important;
+  	background: url(images/top_tab.gif) no-repeat right 0px;
+  	width: 16px;
+}
+.login li.ss_left {
+  	background: url(images/top_tab.png) no-repeat left 0px!important;
+  	background: url(images/top_tab.gif) no-repeat left 0px;
+  	width: 16px;
+}
+.logintab a {
+	color: #15ADFF;
+	cursor: pointer;
+	margin: 0px 10px;
+}
+.logintab a:hover {
+	color: #3875d7;
+
+}
+.logintab .sep {color:#3875d7}

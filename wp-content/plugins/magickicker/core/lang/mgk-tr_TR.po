@@ -1,0 +1,1657 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Magic Affiliate 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-26 20:09+0530\n"
+"PO-Revision-Date: 2010-04-26 20:10+0530\n"
+"Last-Translator: Priyabrata <yespbs@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;mga_box_top\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\xampp171\\htdocs\\magicmediagroup\\wp-content\\plugins\\magicaffiliate\\protected\n"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/mga_main.php:6
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:10
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_functions.php:137
+msgid "Magic Affiliate"
+msgstr "Büyü Bağlı şirket"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:12
+msgid "Affiliates"
+msgstr "İştirakler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:13
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:24
+msgid "Banners"
+msgstr "Afişler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:14
+msgid "Click Throughs"
+msgstr "Tıklayın throughs"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:15
+msgid "Sales Data"
+msgstr "Satış Data"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:16
+msgid "Payouts"
+msgstr "Ödemeler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:17
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:24
+msgid "Dashboard"
+msgstr "Gösterge paneli"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:32
+msgid "Manage Affiliates"
+msgstr "Yönet İştirakler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:33
+msgid "Add Affiliate"
+msgstr "Affiliate ekle"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:40
+msgid "Manage Banners"
+msgstr "Yönet Afişler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:41
+msgid "Add Banner"
+msgstr "Banner ekle"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:48
+msgid "Clicks"
+msgstr "Tıklamalar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:55
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:22
+msgid "Sales"
+msgstr "Satış"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:56
+msgid "Add Sales"
+msgstr "Satış ekle"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:63
+msgid "Manage Payouts"
+msgstr "Yönet Ödemeler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:64
+msgid "Payouts History"
+msgstr "Ödemeler Tarihi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:71
+msgid "General"
+msgstr "Genel"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:72
+msgid "Security"
+msgstr "Güvenlik"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:73
+msgid "Affiliate Center"
+msgstr "Ortaklık Merkezi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:74
+msgid "Email Templates"
+msgstr "E-posta Şablonları"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:75
+msgid "Recurring Modules"
+msgstr "Tekrarlayan Modülleri"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:76
+msgid "Auto Responders"
+msgstr "Otomatik Cevaplama"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/admin/index.php:100
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:68
+msgid "Loading"
+msgstr "Yükleme"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:9
+msgid "Welcome"
+msgstr "Hoşgeldin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:17
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:19
+msgid "Home"
+msgstr "Ev"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:20
+msgid "Profile"
+msgstr "Profil"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:21
+msgid "Referrals"
+msgstr "Tavsiyeler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:23
+msgid "Payment History"
+msgstr "Ödeme Geçmişi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:26
+msgid "Sub Affiliates"
+msgstr "Alt İştirakler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:28
+msgid "Contact"
+msgstr "Temas"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:29
+msgid "Logout"
+msgstr "Çıkış"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/affiliate/index.php:60
+msgid "Are you sure to logout?"
+msgstr "sonra çıkış yapmak emin misiniz?"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_functions.php:138
+msgid "Support"
+msgstr "Destek"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_functions.php:538
+msgid "Your Subscripion has expired"
+msgstr "Kişisel Subscripion süresi doldu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_functions.php:549
+msgid "Invalid URL Provided"
+msgstr "Geçersiz URL Sağlanan "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_functions.php:553
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_functions.php:557
+msgid "Could not create Temporary file"
+msgstr "dosya Geçici oluşturulamadı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:7
+msgid "You will be informed about Magic Affiliate news and updates with this section."
+msgstr "Sen Magic Affiliate haber ve güncellemeleri bu bölümü ile ilgili bilgi verilecektir."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:8
+msgid "All of our customers who bought Magic Affiliate plugin will also get one year free update and full customer support. When your subscription expires, you can extend your account by clicking 'Extend' link."
+msgstr "Tüm Magic Affiliate eklenti satın müşterilerimizin de bir yıl ücretsiz güncelleme ve tam müşteri desteği alırsınız. Zaman aboneliğiniz sona erdiğinde, tıklayarak hesabınızı genişletebilirsiniz "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:9
+msgid "This section will display a notification when Magic Members plugin has a new version. When a new version appears, you will see an 'Update' button for you to download lastest version of Magic Members."
+msgstr "Bu bölüm, Magic Üyeler eklentisi yeni bir sürüm olan bir bildirim gösterir. Ne zaman yeni bir sürüm belirdiğinde, bir 'sen Magic Üyeler sürümü son indirmek için Update' düğmesi göreceksiniz."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:14
+msgid "In this section you can view all your affiliates and the commissions they made so far. Please note that this page will be cached after your first view. In order to see the latest data please click the green reload icon on the right."
+msgstr "Bu bölümde ve bugüne kadar yapılan komisyon tüm iştirakleri görüntüleyebilirsiniz. Lütfen bu sayfa ilk görüntüledikten sonra önbelleğe olacaktır. amacıyla son veriler sağdaki yeşil yeniden simgesini tıklayınız görebilirsiniz."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:15
+msgid "You can manually create your affiliate's account and set their individual commission levels."
+msgstr "Elle affilite hesabı oluşturabilir ve bireysel komisyon seviyelerini ayarlayın. "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:16
+msgid "You can edit your affiliate's details and change their commission settings. If your affiliate is making more sales than any other affiliate you have, you can raise only that affiliate's commission to motivate him/her even more."
+msgstr "Eğer ortaklık bilgilerini düzenleyebilir ve komisyon ayarlarını değiştirebilirsiniz. Bağlı kuruluş var diğer ortaklık daha fazla satış yaparken ise, yalnızca o ortaklık komisyonu onunla daha da motive etmek yükseltebilirsiniz."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:20
+msgid "In this section you can view the list of banner, flash and text ads that you created. If you would like to edit or delete the banners that you created please click the icons right next to them to do so. Please note that this page will be cached after your first view. In order to see the latest data please click the green reload icon on the right."
+msgstr "Bu bölümde banner listesinde, flaş ve oluşturduğunuz metin reklamları görebilirsiniz. düzenlemek veya simgeleri tıklatın hakkı onlara bunu yanındaki lütfen oluşturulan afiş silmek isterseniz. Lütfen bu sayfa ilk görüntüledikten sonra önbelleğe olacaktır. amacıyla son veriler sağdaki yeşil yeniden simgesini tıklayınız görebilirsiniz."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:21
+msgid "In this section you can setup as many ad as you want. The ads can be text, image or flash."
+msgstr "Birçok reklam olarak ayarlayabileceğiniz Bu bölümde istediğiniz kadar. Reklamları metin, resim veya flash olabilir."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:22
+msgid "In this section you can edit the ads you created. You can also disable your ads and enable it later on to use it again."
+msgstr "Bu bölümde oluşturduğunuz reklamlar düzenleyebilirsiniz. Ayrıca reklamlarınızı devre dışı bırakabilir ve daha sonra tekrar kullanabilmek için etkinleştirin."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:26
+msgid "In this section you can view the list of clickthroughs. Please note that this page will be cached after your first view. In order to see the latest data please click the green reload icon on the right."
+msgstr "Bu bölümde tıklamaları listesini görebilirsiniz. Lütfen bu sayfa ilk görüntüledikten sonra önbelleğe olacaktır. amacıyla son veriler sağdaki yeşil yeniden simgesini tıklayınız görebilirsiniz."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:27
+msgid "You can view the individual clickthrough's details such as referrer, hit date/time, IP Address and referrer URL."
+msgstr "Sen yönlendirme gibi bireysel tıklama bilgilerini görüntüleyebilirsiniz tarih hit / saat, IP Adresi ve yönlendiren URL."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:32
+msgid "This is the section that you will view most. You can see all the commissions that the affiliates have been made. You can see the different type of the comission such as signup or sale. Please note that this page will be cached after your first view. In order to see the latest data please click the green reload icon on the right."
+msgstr "Bu bölümde size en görünümünde olacaktır. Tüm komisyonların bu iştirakleri yapılmıştır görebilirsiniz. Siz kayıt olma veya satış gibi komisyon farklı tip görebilirsiniz. Lütfen bu sayfa ilk görüntüledikten sonra önbelleğe olacaktır. amacıyla son veriler sağdaki yeşil yeniden simgesini tıklayınız görebilirsiniz."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:33
+msgid "You can manually edit the commissions. This section has 2 purpose. 1. If you add sales manually and you would like to change a data about it you can do so. 2. If you think there is a fraud about the sale or a customer requested a refund, you can edit the payment status from 'processed' to 'pending'"
+msgstr "El komisyonları düzenleyebilirsiniz. Bu bölümde 2 amacı vardır. 1. el satış ekler ve bu konuda bunu bir veri değiştirmek istiyorum. 2. Orada satış hakkında dolandırıcılık veya müşteri geri ödeme talep olduğunu düşünüyorsanız, sizden ödeme durumunu düzenleyebilir 'işleme' için 'bekleyen'"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:34
+msgid "With Magic Affiliate your affiliates don't have to make sales online. If you have an offline sales team you can track their sales by manually adding them to your 'system', so they can check dair stats online."
+msgstr "senin iştiraklerinin satış çevrimiçi yapmak zorunda değilsiniz Magic Affiliate ile. manuel sistem ekleyerek onların satış izleyebilirsiniz çevrimdışı satış ekibi varsa, onlar Dair istatistikler online check böylece. "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:38
+msgid "In this section you can filter the comissions by date and minimum payout. After you filter them, you can easily create a 'payfile' for PayPal payments. After you pay the affiliates, you can also set them as 'paid' in this same screen"
+msgstr "Bu bölümde tarih ve asgari ödeme ile komisyonları filtre uygulayabilirsiniz. Bunları filtre uyguladıktan sonra, kolayca 'PayPal ödemeleri için payfile oluşturabilirsiniz. Eğer iştirakleri ödeme sonra, olarak da ayarlayabilirsiniz 'bu aynı ekranda ödenen"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:39
+msgid "This section is the archive of the payments you previously made."
+msgstr "Bu bölüm ödemelerin daha önce yapılmış arşividir."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:43
+msgid "Magic Affiliate works based on these settings. If you need any help about setting up your system, please don't hesitate to contact us."
+msgstr "Magic Affiliate bu ayarlara dayalı olarak çalışır. Eğer sistem kurma konusunda herhangi bir yardıma ihtiyacı olursa, bizimle temas kurmaktan çekinmeyin."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:44
+msgid "In this section you can change the affiliate center's look. You can also send messages to your affiliate's dashboard."
+msgstr "Bu bölümde ortaklık merkezinin görünümünü değiştirebilirsiniz. Ayrıca, bağlı kuruluş's dashboard mesaj gönderebilirsiniz."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:45
+msgid "You can create an email template to send to your affiliates when they make sale. You can use html and provided shortcodes such as [name], [buyer_name], [amount] and [commission]. "
+msgstr "Eğer iştirakleri satışa yapmak göndermek için şablon bir e-posta oluşturabilirsiniz. Sen html kullanabilir ve sağlanan shortcodes [name], [buyer_name], [amount] and [commission]."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/mga_tips_info.php:46
+msgid "In this section you will find various membership modules to intigrate with Magic Affiliate to benefit from recurring commissions"
+msgstr "Bu bölümde çeşitli üyelik modüller Magic Affiliate ile tekrarlayan komisyonları yararlanma intigrate bulabilirsiniz"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/includes/classes/mga_pager.php:54
+#, php-format
+msgid "Displaying %s&#8211;%s of %s "
+msgstr "Görünen %s&#8211;%s of %s "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:24
+msgid "Manage/List of Affiliates"
+msgstr "İştirakler yönetin / Liste"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:31
+msgid "Affiliate ID"
+msgstr "Bağlı şirket ID"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:32
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:169
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:454
+msgid "First Name"
+msgstr "Isim"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:33
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:173
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:458
+msgid "Last Name"
+msgstr "Soyadı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:34
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:224
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:509
+msgid "Email Address"
+msgstr "E-posta Adresi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:35
+msgid "Date Joined"
+msgstr "Kayıt Tarihi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:36
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:205
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:490
+msgid "Country"
+msgstr "Ülke"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:37
+msgid "Commission"
+msgstr "Komisyon"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:44
+msgid "No Affiliates"
+msgstr "No İştirakler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:126
+msgid "Affiliate email is duplicate, please provide a unique email."
+msgstr "Affiliate email yinelenen benzersiz bir e-posta sağlamak lütfen."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:136
+msgid "Affiliate created successfully."
+msgstr "Affiliate başarıyla oluşturuldu."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:139
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:416
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:679
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:131
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:286
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:446
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:164
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:342
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:514
+msgid "Database error occurred"
+msgstr "Veritabanı hatası oluştu "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:144
+msgid "Affiliate email not provided."
+msgstr "Ortaklık email sağlanamamaktadır."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:161
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:446
+msgid "Title"
+msgstr "Başlık"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:177
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:462
+msgid "Company"
+msgstr "Şirket"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:181
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:466
+msgid "Website Address"
+msgstr "Web Sitesi Adresi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:185
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:470
+msgid "Paypal Email Address"
+msgstr "Paypal E-posta Adresi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:189
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:474
+msgid "Street"
+msgstr "Sokak"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:193
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:478
+msgid "City"
+msgstr "Şehir"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:197
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:482
+msgid "State"
+msgstr "Devlet"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:201
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:486
+msgid "Zip/Postcode"
+msgstr "Zip / Posta kodu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:213
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:498
+msgid "Phone"
+msgstr "Telefon"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:217
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:502
+msgid "Fax"
+msgstr "Faks"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:221
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:506
+msgid "Login Details"
+msgstr "Giriş Detayları"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:228
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:513
+msgid "Password"
+msgstr "Şifre"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:232
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:517
+msgid "Individual Commission - Override General Commission Settings"
+msgstr "Bireysel Komisyonu - Override Genel Komisyonu Ayarlar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:235
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:520
+msgid "Commission Level"
+msgstr "Komisyon Düzeyi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:244
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:522
+msgid "Override Commission Level"
+msgstr "Override Komisyonu Düzeyi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:248
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:271
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:526
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:541
+msgid "Flat"
+msgstr "Düz"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:249
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:272
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:527
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:542
+msgid "Percent"
+msgstr "Yüzde"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:252
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:530
+msgid "Individual Commission level for payout. If Tier Commission is enabled, this will be disregarded."
+msgstr "ödemesi için Bireysel Komisyonu seviyesi. Tier Komisyonu etkinse, bu göz ardı edecektir."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:257
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:535
+msgid "Recurring Commission"
+msgstr "Tekrarlayan Komisyonu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:267
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:537
+msgid "Override Recurring Commission"
+msgstr "Override Tekrarlayan Komisyonu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:275
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:545
+msgid "Individual Recurring Commission level for payout. Only available if any Recurring Module is enabled and Recurring Commission is enabled."
+msgstr "ödemesi için Bireysel Tekrarlayan Komisyonu seviyesi. Herhangi Tekrarlayan Modülü ve etkinse Tekrarlayan Komisyonu etkindir Sadece kullanılabilir."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:282
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:552
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:189
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:356
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:231
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:413
+msgid "Save"
+msgstr "Kurtarmak"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:283
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:553
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:190
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:357
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:115
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:232
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:414
+msgid "Cancel"
+msgstr "Iptal"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:310
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:585
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:217
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:389
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:268
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:453
+msgid "Saving"
+msgstr "Tasarruf"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:348
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:619
+msgid "Please enter firstname"
+msgstr "Lütfen Isim girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:349
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:620
+msgid "Please enter lastname"
+msgstr "Lütfen Soyadı girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:350
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:621
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:85
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:300
+msgid "Please enter a valid email address"
+msgstr "Lütfen e-posta bize kayıt girin."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:352
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:623
+msgid "Please provide a password"
+msgstr "Lütfen bir şifre sağlamak"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:353
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:624
+msgid "Your password must be at least 6 characters long"
+msgstr "Şifreniz en az 6 karakter uzunluğunda olmalıdır"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:354
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:625
+msgid "Your password must be at max 13 characters long"
+msgstr "Şifreniz en fazla 13 karakter uzunluğunda olmalıdır"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:356
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:627
+msgid "Please enter commission level"
+msgstr "Lütfen komisyon düzeyinde girmek"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:357
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:628
+msgid "Please enter recurring commission level"
+msgstr "Lütfen yinelenen komisyon düzeyinde girmek"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:404
+msgid "Affiliate email is already registered, please provide a unique email"
+msgstr "Affiliate email zaten benzersiz bir e-posta veriniz kayıtlıdır"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:413
+msgid "Affiliate updated successfully"
+msgstr "Affiliate başarıyla güncellendi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:421
+msgid "Affiliate email not provided"
+msgstr "Ortaklık email sağlanmamış"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:441
+msgid "Edit Affiliate"
+msgstr "Edit Affiliate"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:668
+msgid "Affiliate id not provided."
+msgstr "İştirakler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/affiliates.tpl.php:676
+msgid "Affiliate deleted successfully"
+msgstr "Affiliate başarıyla silindi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:21
+msgid "Manage/List of Banners"
+msgstr "Afişler yönetin / Liste"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:28
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:29
+msgid "ID"
+msgstr "ID"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:29
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:153
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:316
+msgid "Name"
+msgstr "Ad"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:30
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:181
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:344
+msgid "Description"
+msgstr "Tanımlama"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:31
+msgid "Link Text/ALT"
+msgstr "Link Metin / ALT"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:32
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:157
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:320
+msgid "Target URL"
+msgstr "Hedef URL"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:33
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:169
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:332
+msgid "Image URL"
+msgstr "Resim URL'si"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:40
+msgid "No Banners"
+msgstr "No Afişler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:120
+msgid "Banner name is duplicate, please provide a unique name."
+msgstr "Banner ad yinelenen benzersiz bir isim verin lütfen."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:128
+msgid "Banner created successfully."
+msgstr "Banner başarıyla oluşturuldu."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:136
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:291
+msgid "Banner name not provided."
+msgstr "Banner isim verilmemiştir."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:161
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:324
+msgid "Type"
+msgstr "Tip"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:165
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:328
+msgid "Link/Alt Text"
+msgstr "Link / Alt Yazı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:172
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:335
+msgid "Width"
+msgstr "Genişlik"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:173
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:336
+msgid "Height"
+msgstr "Yükseklik"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:177
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:340
+msgid "Flash Embed"
+msgstr "Flash Embed"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:275
+msgid "Banner name is already registered, please provide a unique name."
+msgstr "Banner adı zaten, benzersiz bir ad veriniz kayıtlı."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:283
+msgid "Banner updated successfully."
+msgstr "Banner başarıyla güncellendi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:311
+msgid "Edit Banner"
+msgstr "Edit Banner"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:350
+msgid "Is Active"
+msgstr "Aktif mi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:435
+msgid "Banner id not provided."
+msgstr "Banner sağlanamamaktadır id."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/banners.tpl.php:443
+msgid "Banner deleted successfully."
+msgstr "Banner başarıyla silindi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:22
+msgid "Clickthrough Data"
+msgstr "Tıklama Data"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:30
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:97
+msgid "Referrer"
+msgstr "Referrer"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:31
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:101
+msgid "Hit Date/Time"
+msgstr "Satış Data "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:32
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:105
+msgid "IP Address"
+msgstr "IP Adresi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:33
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:109
+msgid "Referrer URL"
+msgstr "Referrer URL"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:40
+msgid "No Click Throughs"
+msgstr "Hayır tıklayın throughs"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/clicks.tpl.php:93
+msgid "View Click Data"
+msgstr "Profili tıklayın Data"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:21
+msgid "Activate Magic Affiliate"
+msgstr "Etkinleştirmek Magic Affiliate"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:28
+msgid "Magic Affiliate will not function until a valid License Key has been entered. Please enter your email address in the box below to activate the plugin. Please contact Magic Affiliates if you need help with this."
+msgstr "geçerli bir lisans anahtarına girildi kadar Magic Affiliate çalışmaz. Lütfen aşağıdaki kutuya e-posta adresinizi girin tapa etkinleştirin. Lütfen Magic İştirakler ihtiyacınız bu yardım eğer. "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:29
+#, php-format
+msgid "If you don't have a key then please visit %s to purchase one."
+msgstr "Eğer bir satın almak için ziyaret %s lütfen bir anahtar yoksa."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:34
+msgid "Registration Email"
+msgstr "Kayıt Email"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:35
+msgid "Activate"
+msgstr "Etkinleştirmek"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:103
+msgid "Stats Overview"
+msgstr "İstatistikler Genel Bakış"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:108
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:77
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:331
+msgid "Start Date"
+msgstr "Başlangıç Tarihi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:109
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:78
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:332
+msgid "End Date"
+msgstr "Bitiş Tarihi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:110
+msgid "Display Sales"
+msgstr "Ekran Satış"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:129
+msgid "Messages"
+msgstr "Mesajlar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:136
+msgid "Subscription Status"
+msgstr "Abonelik Durumu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:145
+msgid "Version Check"
+msgstr "Sürüm kontrol"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:197
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:198
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:148
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:149
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:394
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:395
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:299
+msgid "Please enter valid date"
+msgstr "Lütfen geçerli bir tarih girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:244
+msgid "Affiliate Stats Overview"
+msgstr "İstatistikler Genel Bakış "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:246
+msgid "Total Clicks"
+msgstr "Tıklamalar "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:247
+msgid "Number of Sales"
+msgstr "Sayı Satış"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:248
+msgid "Total Sales Amount"
+msgstr "Toplam Satış Tutarı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:249
+msgid "Total Sales Commission"
+msgstr "Toplam Satış Komisyonu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:250
+msgid "Total New Affiliate Signup Commission"
+msgstr "Toplam Yeni Affiliate Signup Komisyonu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:264
+msgid "Your Acount Has Been Activated."
+msgstr "Senin acount etkinleştirildi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/dashboard.tpl.php:267
+msgid "Email is not provided."
+msgstr "E-posta sağlanamamaktadır."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:79
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:333
+msgid "Minimum Payout Balance"
+msgstr "Minimum Ödeme Dengesi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:80
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:334
+msgid "Filter"
+msgstr "Filtre"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:81
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:335
+msgid "Clear"
+msgstr "Açık"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:86
+msgid "Pay File"
+msgstr "Pay Dosya"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:87
+msgid "Mark paid"
+msgstr "Mark ödenmiş"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:147
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:393
+msgid "Please enter min amount"
+msgstr "Lütfen min tutarı girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:147
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:393
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:298
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:479
+msgid "Please enter numbers"
+msgstr "Lütfen sayı girmek"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:218
+msgid "Marked as paid"
+msgstr "Işaretlenmiş ödenmiş olarak"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:230
+msgid "Please select a commission"
+msgstr "Lütfen bir komisyon seçin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:230
+msgid "Please select one"
+msgstr "Lütfen birini seçin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:258
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:437
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:30
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:182
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:363
+msgid "Affiliate"
+msgstr "İştirakler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:259
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:438
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:31
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:194
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:375
+msgid "Commission Amount"
+msgstr "Komisyon Miktarı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:260
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:439
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:32
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:198
+msgid "Sale Date/Time"
+msgstr "Satış Data "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:261
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:440
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:33
+msgid "Buyer Email"
+msgstr "Alıcı Email"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:262
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:441
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:34
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:217
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:399
+msgid "Item ID"
+msgstr "Madde ID"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:263
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:442
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:37
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:221
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:403
+msgid "Transaction ID"
+msgstr "Işlem ID"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:443
+msgid "Pay Date/Time"
+msgstr "Satış Data "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/payouts.tpl.php:458
+msgid "No Payouts"
+msgstr "No Ödemeler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:35
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:213
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:395
+msgid "Item Type"
+msgstr "Öğe Türü"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:36
+msgid "Pay Status"
+msgstr "Ödeme Durum"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:44
+msgid "No Sales"
+msgstr "Hayır Satış"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:76
+msgid "Sub Total"
+msgstr "Alt Toplam"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:82
+msgid "Refund"
+msgstr "Geri ödeme"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:88
+msgid "Total"
+msgstr "Toplam"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:152
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:330
+msgid "Transaction is duplicate, please provide a unique transsaction ID."
+msgstr "Banner ad yinelenen benzersiz bir isim verin lütfen. "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:161
+msgid "Sales added successfully."
+msgstr "Satış başarıyla eklendi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:169
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:347
+msgid "Affiliate not provided."
+msgstr "İştirakler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:190
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:371
+msgid "Total Sale Amount"
+msgstr "Toplam Satış Tutarı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:205
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:387
+msgid "Buyer Name"
+msgstr "Alıcı Adı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:209
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:391
+msgid "Buyer Email Address"
+msgstr "Alıcı E-posta Adresi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:225
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:407
+msgid "Payment Status"
+msgstr "Ödeme Durum"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:298
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:479
+msgid "Please enter commission amount"
+msgstr "Lütfen komisyon tutarı girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:299
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:480
+msgid "Please enter sale date"
+msgstr "Lütfen satış tarihi girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:301
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:482
+msgid "Please enter item ID"
+msgstr "Lütfen madde numarası girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:302
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:483
+msgid "Please enter transaction ID"
+msgstr "Lütfen ID işlem girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:339
+msgid "Sales updated successfully."
+msgstr "Satış başarıyla güncellendi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:358
+msgid "Edit Sales"
+msgstr "Düzenle Satış"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:379
+msgid "Sale Date"
+msgstr "Satış Data "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:503
+msgid "Sales not provided."
+msgstr "Satış sağlanamamaktadır."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/sales.tpl.php:511
+msgid "Sales deleted successfully."
+msgstr "Satış başarıyla silindi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:26
+msgid "General Settings updated successfully"
+msgstr "Genel Ayarlar başarıyla güncellendi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:29
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:414
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:534
+msgid "Setting not provided"
+msgstr "sağlanmamış Ayarlama"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:43
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:48
+msgid "Affiliate Site Title"
+msgstr "İştirakler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:51
+msgid "Page Title Shown on Affiliate Account Header"
+msgstr "Sayfa Başlığı Partner Hesabı başıklı Gösterildi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:55
+msgid "Affiliate Site Copyright"
+msgstr "Ortaklık Site Telif"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:58
+msgid "Copyright Shown on Affiliate Account Footer"
+msgstr "Copyright Partner Hesabı Footer üzerinde Gösterildi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:62
+msgid "Cookie Life(Days)"
+msgstr "Cookie Life (Gün)"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:65
+msgid "Cookie Life Time for Tracking a Sale. Keep within 30 Days for best result"
+msgstr "Bir Satış Takibi için Cookie Life Time. 30 Gün içinde en iyi sonucu almak"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:76
+msgid "Commission level for payout. If Tier Commission is enabled, this will be disregarded."
+msgstr "ödemesi için Komisyon düzeyi. Tier Komisyonu etkinse, bu göz ardı edecek "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:80
+msgid "Use Tier Commission"
+msgstr "Kullanım Tier Komisyonu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:82
+msgid "Enable Tier Commission?"
+msgstr "Enable Tier Komisyonu?"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:86
+msgid "Levels"
+msgstr "Seviyeleri"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:96
+msgid "Tier Commission for payout. Each value must be provided for the system to work."
+msgstr "Tier Komisyon ödemesi için. Her değer sisteminin çalışması için sağlanmalıdır."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:103
+msgid "Enable Recurring Commission?"
+msgstr "Tekrarlayan Komisyonu "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:111
+msgid "Recurring Commission level for payout. Only available if any Recurring Module is enabled."
+msgstr "ödemesi için Tekrarlayan Komisyonu seviyesi. Herhangi Tekrarlayan Modülü aktif Yalnızca kullanılabilir. "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:116
+msgid "Signup Bonus"
+msgstr "Kaydolma Bonusu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:119
+msgid "Bonus Commission payout for new Signups."
+msgstr "Yeni Kayıtlar için Bonus Komisyon ödemesi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:123
+msgid "Currency Symbol"
+msgstr "Döviz Symbol"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:126
+msgid "Currency of the all Transactions."
+msgstr "tüm İşlem Döviz."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:130
+msgid "Currency Code"
+msgstr "Döviz Kodu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:133
+msgid "Currency of the all Transactions. Used in PayPal mostly."
+msgstr "tüm İşlem Döviz. PayPal çoğunlukla kullanılır."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:137
+msgid "Commission Reversal"
+msgstr "Komisyon Ters"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:139
+msgid "Enable Automatic Commission Reversal"
+msgstr "Enable Automatic Komisyonu Ters"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:140
+msgid "Check this if you want to automatically reverse the commission. Works with WP-Ecommerce only."
+msgstr "otomatik komisyon tersine çevirmek istiyorsanız bu kontrol edin. İşleri WP-ticaretle sadece."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:144
+msgid "Contact Email Address"
+msgstr "İletişim E-posta Adresi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:147
+msgid "Contact Email for all Contact requests."
+msgstr "İletişim Email tüm İletişim istekleri için."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:151
+msgid "Affiliate Login URL"
+msgstr "İştirakler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:163
+msgid "SAMPLE"
+msgstr "ÖRNEK"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:165
+msgid "URL for Affiliates to Signup/login etc."
+msgstr "URL Bağlı için Signup / login vs"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:169
+msgid "Terms & Conditions URL"
+msgstr "Kayıt ve Şartlar URL"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:172
+msgid "URL to Terms & Conditions."
+msgstr "URL Kayıt ve Şartlar için."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:176
+msgid "Admin Notification"
+msgstr "Admin Bildirim"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:178
+msgid "Enable All Notification to Admin?"
+msgstr "Enable All Bildirim Admin için?"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:179
+msgid "Check to send copy of all Emails (sales) to Admin."
+msgstr "Yönetici tüm e-postalar (satış) kopyasını göndermek için kontrol edin."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:183
+msgid "Short date Format"
+msgstr "Kısa tarih Format"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:190
+msgid "Short Date Format for Display."
+msgstr "Görünen Kısa Tarih Biçimi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:194
+msgid "Long date Format"
+msgstr "Uzun tarih Format"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:206
+msgid "Long Date Format for Display."
+msgstr "Ekran için uzun Tarih Biçimi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:210
+msgid "Pagination Limit"
+msgstr "Pagination Limit"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:213
+msgid "Pagination Limit (Admin and Affiliates) ."
+msgstr "Pagination Limit (Yönetici ve İştirakler)."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:229
+msgid "Remove Magic Affiliates"
+msgstr "Kaldır Magic İştirakler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:235
+msgid "<strong>Warning!</strong> This will remove all Magic Affiliates data including sales records."
+msgstr "<strong> Uyarı! </ strong> Bu satış rekorları dahil tüm Magic İştirakler verileri kaldırır."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:236
+msgid "Back up before removal! Once done this can not be undone!"
+msgstr "Yedekleyin çıkarmadan önce! Bir kere bu geri alınamaz bitmiş!"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:241
+msgid "Remove All Data"
+msgstr "Tüm Verileri Kaldır"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:246
+msgid "Only use this tool if you really mean to permanently remove Magic Affiliates, otherwise deactivate/activate using the normal Plugin screen"
+msgstr "Eğer gerçekten kalıcı, Magic Bağlı kaldırmak aksi devre dışı bırakmak anlamına Yalnızca bu aracı kullanabilirsiniz / normal Plugin ekranı kullanarak etkinleştirmek"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:300
+msgid "Please enter site title"
+msgstr "Lütfen site başlığını yazınız"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:301
+msgid "Please enter site copyright"
+msgstr "Lütfen site telif girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:302
+msgid "Please enter cookie life in days"
+msgstr "Lütfen gün içinde çerez yaşam girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:305
+msgid "Please enter signup bonus in amount"
+msgstr "Lütfen miktarda katılım ödülü girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:306
+msgid "Please enter currency symbol"
+msgstr "Lütfen para birimi simgesi girmek"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:307
+msgid "Please enter currency code"
+msgstr "Lütfen para birimi kodunu girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:308
+msgid "Please select auto commission reversal"
+msgstr "Lütfen seçin otomatik komisyon bozma"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:309
+msgid "Please enter contact email"
+msgstr "Lütfen e-posta girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:309
+msgid "Email should be in valid format"
+msgstr "E-posta geçerli biçiminde olmalıdır"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:310
+msgid "Please enter Affiliate Center URL name"
+msgstr "Lütfen Ortaklık Merkezi URL adını girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:311
+msgid "Please enter pagination limit"
+msgstr "Lütfen girmek pagination limit"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:311
+msgid "Please enter pagination in digit"
+msgstr "Lütfen basamaklı olarak pagination girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:369
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/contact.tpl.php:55
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:197
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:264
+msgid "Processing"
+msgstr "Işleme"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:411
+msgid "Security Settings updated successfully."
+msgstr "Güvenlik Ayarları başarıyla güncellendi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:425
+msgid "Security Settings"
+msgstr "Güvenlik Ayarları"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:430
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:432
+msgid "Enable Security Captcha"
+msgstr "Enable Güvenlik Captcha"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:433
+msgid "Check this if you want to use reCAPTCHA in affiliate signup form."
+msgstr "Check this if you want to use reCAPTCHA in affiliate signup form."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:438
+msgid "Public Key"
+msgstr "Public Key"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:441
+msgid "Captcha Public Key"
+msgstr "Captcha Public KeyContribute a better translation"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:446
+msgid "Private Key"
+msgstr "Özel Anahtar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:449
+msgid "Captcha Private Key"
+msgstr "Captcha Özel Anahtar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:531
+msgid "Affiliate Center Settings updated successfully."
+msgstr "Ortaklık Merkezi Ayarlar başarıyla güncellendi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:545
+msgid "Affiliate Center Settings"
+msgstr "Ortaklık Merkezi Ayarlar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:550
+msgid "Index Page Title"
+msgstr "İçindekiler Sayfa Başlığı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:553
+msgid "Shown on Affiliate Account Index (Before login)."
+msgstr "Gösterilir Partner Hesabı Endeksi (login önce üzerinde)."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:558
+msgid "Index Page Message"
+msgstr "Index Page Mesaj"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:561
+msgid "Shown on Affiliate Account Index (Before login)"
+msgstr "Gösterilir Partner Hesabı Endeksi (login önce on)"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:566
+msgid "Notes to Affiliates"
+msgstr "İştirakler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:569
+msgid "Any notes to Affiliate (After login)."
+msgstr "Ortaklık (giriş sonra yapılan tüm notlar)."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:658
+msgid "Email templates updated successfully."
+msgstr "E-posta başarıyla güncellendi şablonlar."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:661
+msgid "Email templates not provided."
+msgstr "E-posta sağlanamamaktadır şablonlar."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:677
+msgid "Sale Notification"
+msgstr "Satılık Bildirim"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:682
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:701
+msgid "Subject"
+msgstr "Konu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:687
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:706
+msgid "Body"
+msgstr "Vücut"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:689
+msgid "Email template body for after sale notification to affiliates."
+msgstr "Email bağlı kuruluşlara satış sonrası bildirimi için vücut şablonu."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:696
+msgid "Signup Notification"
+msgstr "Kayıt Bildirim"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:708
+msgid "Email template body for after signup notification to affiliates."
+msgstr "E-posta iştiraklerinin sonra kayıt bildirimi için vücut şablonu."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:798
+msgid "Recurring Modules updated successfully."
+msgstr "Tekrarlayan Modüller başarıyla güncellendi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:801
+msgid "Recurring Modules not provided."
+msgstr "Tekrarlayan Modüller sağlanamamaktadır."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:817
+msgid "Available Modules"
+msgstr "Mevcut Modüller"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:822
+msgid "Magic Members"
+msgstr "Magic Üyeler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:870
+msgid "Please select one module before saving"
+msgstr "Lütfen kaydetmeden önce bir modülü seçin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:908
+msgid "Auto Responders updated successfully."
+msgstr "Otomatik Cevaplama başarıyla güncellendi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:911
+msgid "Auto Responder Data not provided."
+msgstr "Otomatik Cevaplama sağlanamamaktadır. "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:928
+msgid "Available Auto Responders"
+msgstr "Mevcut Auto Anketörler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:933
+msgid "Select Auto Responder"
+msgstr "Select Otomatik cevap"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:934
+msgid "Aweber"
+msgstr "AWeber"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:935
+msgid "GetResponse"
+msgstr "GetResponse"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:936
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:943
+msgid "Aweber Web Form ID"
+msgstr "AWeber Web Form ID"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:946
+msgid "Aweber Unit/List Name"
+msgstr "AWeber Birim / Liste Adı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:951
+msgid "GetResponse Campaign Name"
+msgstr "GetResponse Kampanya Adı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:954
+msgid "GetResponse Tracking Code"
+msgstr "GetResponse İzleme Kodu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:959
+msgid "MailChimp Unique List ID"
+msgstr "MailChimp Benzersiz Listesi ID"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:962
+msgid "MailChimp API Key"
+msgstr "MailChimp API Anahtarı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:1017
+msgid "Please enter aweber form id"
+msgstr "Lütfen id AWeber formu girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:1018
+msgid "Please enter aweber unit"
+msgstr "Lütfen AWeber birim girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:1019
+msgid "Please enter getresponse campaign name"
+msgstr "Lütfen GetResponse kampanya adı girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:1020
+msgid "Please enter getresponse tracking code"
+msgstr "Lütfen GetResponse izleme kodu girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:1021
+msgid "Please enter mailchimp unique list id"
+msgstr "Lütfen girmek mailchimp benzersiz bir liste id"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:1022
+msgid "Please enter mailchimp api key"
+msgstr "Lütfen anahtar mailchimp api girmek"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:1052
+msgid "Plugin deactivated"
+msgstr "Plugin devre dışı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/admin/settings.tpl.php:1056
+msgid "Plugin already deactivated"
+msgstr "Plugin zaten devre dışı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/404.tpl.php:2
+msgid "404 Not Found"
+msgstr "404 Bulunamadı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/404.tpl.php:3
+msgid "Not Found"
+msgstr "Bulunamadı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/banners.tpl.php:27
+msgid "Banner/Link"
+msgstr "Afişler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/banners.tpl.php:46
+msgid "Get Code"
+msgstr "Kodu alın"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/contact.tpl.php:21
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:53
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/sub-affiliates.tpl.php:47
+msgid "Email"
+msgstr "E-posta"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/contact.tpl.php:25
+msgid "Message"
+msgstr "Mesaj"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/contact.tpl.php:34
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:62
+msgid "Send"
+msgstr "Göndermek"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/contact.tpl.php:75
+msgid "Please enter your name"
+msgstr "Lütfen adınızı girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/contact.tpl.php:76
+msgid "Please enter a valid email"
+msgstr "Lütfen geçerli bir e-posta girin "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/contact.tpl.php:77
+msgid "Please enter your message"
+msgstr "Lütfen mesajınızı girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/contact.tpl.php:101
+msgid "Successfully submitted contact request."
+msgstr "Başarılı bir iletişim isteği sundu."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:25
+msgid "Current Commission - From Last Payout to Date [Only Processed Sales Reported]"
+msgstr "Şu Komisyonu - Son Ödeme From Tarihinde Sadece İşlenmiş Satış Dolaylı"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:30
+msgid "Transactions"
+msgstr "Işlemler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:33
+msgid "Standard Earnings"
+msgstr "Standart Kazançlar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:36
+msgid "Tier Earnings"
+msgstr "Tier Kazançlar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:39
+msgid "Recurring Earnings"
+msgstr "Kazançlar Recurring"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:42
+msgid "Current Earnings"
+msgstr "Şu Kazançlar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:50
+msgid "Traffic Statistics"
+msgstr "Trafik İstatistikleri"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:55
+msgid "Visitors"
+msgstr "Ziyaretçi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:57
+msgid "This Statistics do not include recurring or tier commissions."
+msgstr "Bu İstatistik tekrarlayan veya katmanlı komisyonları dahil değildir."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:61
+msgid "Unique Visitors"
+msgstr "Tekil Ziyaretçi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:64
+msgid "Total Sales"
+msgstr "Tıklamalar "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:73
+msgid "Sales Ratio"
+msgstr "Satış Data "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:81
+msgid "Payout Type"
+msgstr "Ödemeler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:82
+msgid "Current Payout Level"
+msgstr "Mevcut Ödeme Seviye"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:87
+msgid "Pay-Per-Sale"
+msgstr "Pay-Per-Satılık"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:88
+msgid "Tier 1"
+msgstr "Tier 1"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/home.tpl.php:104
+msgid "Notes from The Administrator"
+msgstr "Yönetici Notlar"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:15
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:38
+msgid "Login"
+msgstr "Giriş"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:16
+msgid "Password Reminder"
+msgstr "Şifre Hatırlatma"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:17
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:163
+msgid "Register"
+msgstr "Sicil"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:25
+msgid "Username/Email"
+msgstr "Adı / Email"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:50
+msgid "Please enter your email registered with us."
+msgstr "Lütfen e-posta bize kayıt girin."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:149
+msgid "Newsletters"
+msgstr "Haber bültenleri"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:153
+msgid "I would like to receive updates."
+msgstr "Ben güncellemeleri almak istiyorum."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:251
+msgid "Please enter valid email"
+msgstr "Lütfen geçerli bir e-posta girin"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:332
+msgid "Successful login. You will be redirected."
+msgstr "Başarılı giriş. Size yönlendirilecektir."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:334
+msgid "Login unsuccessful, please try again."
+msgstr "Giriş başarısız, lütfen tekrar deneyin."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:355
+msgid "Successfully sent password."
+msgstr "Başarılı bir iletişim isteği sundu. "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:357
+msgid "Password retrieval unsuccessful, please try again."
+msgstr "Giriş başarısız, lütfen tekrar deneyin. "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/login.tpl.php:422
+#, php-format
+msgid "Welcome <b>%s</b>, Your account created successfully. Please use the login form below to login."
+msgstr "Hoşgeldiniz <b>% s </b> Hesabınız başarıyla oluşturuldu. Lütfen giriş giriş formu kullanın."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/payments.tpl.php:72
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/sales.tpl.php:72
+msgid "Date/Time"
+msgstr "Satış Data "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/payments.tpl.php:73
+msgid "Sale Amount"
+msgstr "Satış Data "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/payments.tpl.php:74
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/sales.tpl.php:74
+msgid "Your Earning"
+msgstr "Kişisel Kazanç"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/payments.tpl.php:168
+msgid "No Payment History"
+msgstr "Hayır Ödeme Geçmişi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/profile.tpl.php:28
+msgid "Your profile updated successfully."
+msgstr "Profil başarıyla güncellendi."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/profile.tpl.php:36
+msgid "Email not provided."
+msgstr "E-posta sağlanamamaktadır."
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/referral.tpl.php:167
+msgid "No Referrals"
+msgstr "Hayır Tavsiyeler"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/sub-affiliates.tpl.php:19
+msgid "Sub Affiliate Register Link"
+msgstr "Alt İştirakler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/sub-affiliates.tpl.php:26
+msgid "First Tier Commission"
+msgstr "Ilk Tier Komisyonu"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/sub-affiliates.tpl.php:41
+msgid "Sub Affiliates in Tier"
+msgstr "Alt İştirakler "
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/sub-affiliates.tpl.php:48
+msgid "Website"
+msgstr "Web sitesi"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/sub-affiliates.tpl.php:49
+msgid "Joined"
+msgstr "Kayıt"
+
+#: D:\xampp171\htdocs\magicmediagroup\wp-content\plugins\magicaffiliate\protected/templates/affiliate/layout/header.tpl.php:5
+msgid "Affiliate Account"
+msgstr "İştirakler "
+
+#, fuzzy
+#~ msgid ""
+#~ "Individual Commission level for payout. <b>If Tier Commission is enabled, "
+#~ "this will be disregarded."
+#~ msgstr ""
+#~ "ödemesi için Bireysel Komisyonu seviyesi. Tier Komisyonu etkinse <b>, bu "
+#~ "göz ardı edecek"
+
+#, fuzzy
+#~ msgid "Enable Recurring Commission"
+#~ msgstr "Tekrarlayan Komisyonu "
+
+#~ msgid "Individual Commission"
+#~ msgstr "Komisyon "
+
+#~ msgid ""
+#~ "Recurring Commission level for payout. Only available if any Recurring "
+#~ "Module is activated"
+#~ msgstr ""
+#~ "ödemesi için Tekrarlayan Komisyonu seviyesi. Sadece herhangi Tekrarlayan "
+#~ "Module aktif olup olmadığını"
+
+#~ msgid ""
+#~ "Commission level for payout. If Tier Commission is enabled, this will be "
+#~ "disregarded"
+#~ msgstr ""
+#~ "ödemesi için Komisyon düzeyi. Tier Komisyonu etkinse, bu göz ardı edecek"
+
+#~ msgid "Activate Recurring Commission"
+#~ msgstr "Etkinleştirmek yinelenen komisyon "

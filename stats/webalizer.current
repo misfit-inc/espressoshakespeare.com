@@ -1,0 +1,385 @@
+# Webalizer V2.01-10 Incremental Data - 12/02/2013 23:57:33
+2013 12 2 23 57 33
+697 685 27 40 9 16 9669941 654 639 0 0 0
+20 14 49 1 2
+367 363 4935559 21 328 320 0 0
+330 322 4734382 20 326 319 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+31 30 397696 31 0 0
+28 27 406245 28 0 0
+28 27 406793 28 0 0
+27 26 401306 27 0 0
+26 26 386088 26 0 0
+26 26 386088 26 0 0
+27 26 386088 26 0 0
+62 62 604694 27 0 0
+26 26 386088 26 0 0
+29 29 386114 28 0 0
+27 26 401306 27 0 0
+27 27 386134 26 0 0
+28 28 386088 28 0 0
+26 26 386088 26 0 0
+29 28 401306 29 0 0
+32 29 426444 32 0 0
+27 27 402173 27 0 0
+27 26 401306 27 0 0
+28 27 401332 27 0 0
+26 26 386088 26 0 0
+26 26 386088 26 0 0
+30 30 386140 28 0 0
+27 27 386114 26 0 0
+27 27 386134 26 0 0
+0
+0
+0
+685
+0
+0
+0
+0
+0
+0
+0
+2
+2
+0
+0
+0
+0
+0
+0
+0
+0
+7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+# -urls- 
+/wp-content/themes/espressoshakespeare/includes/css/jquery.ui.theme.css
+0 1 0 2983 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/superfish.js
+0 1 0 1552 0 0 0 0
+/wp-content/themes/espressoshakespeare/images/social-icons.png
+1 1 0 1017 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/general.js
+0 1 0 610 0 0 0 0
+/
+0 580 0 9299423 581 556 0 0
+/wp-content/themes/espressoshakespeare/includes/css/jquery.ui.resizable.css
+0 1 0 441 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/colorbox/images/border.png
+1 1 0 112 0 0 0 0
+/wp-content/themes/espressoshakespeare/functions/css/shortcodes.css
+0 1 0 4625 0 0 0 0
+/wp-content/themes/espressoshakespeare/images/shakespeare-birthplace-trust-logo.png
+1 1 0 3537 0 0 0 0
+/wp-content/themes/espressoshakespeare/styles/default.css
+0 1 0 38 0 0 0 0
+/wp-includes/js/jquery/ui/jquery.ui.core.min.js
+0 1 0 2070 0 0 0 0
+/introduction
+0 1 0 17952 1 0 0 0
+/wp-content/themes/espressoshakespeare/images/page/espresso-logo.png
+1 1 0 4811 0 0 0 0
+/wp-content/themes/espressoshakespeare/images/aqa-new.png
+1 1 0 2705 0 0 0 0
+/wp-cron.php
+0 56 0 0 48 46 0 0
+/wp-content/themes/espressoshakespeare/includes/js/colorbox/jquery.colorbox-min.js
+0 1 0 4191 0 0 0 0
+/wp-content/themes/espressoshakespeare/images/ico-hi.png
+1 1 0 651 0 0 0 0
+/robots.txt
+0 7 0 222 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/scripts.js
+0 1 0 437 0 0 0 0
+/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js
+0 1 0 5328 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/css/jquery.ui.base.css
+0 1 0 76 0 0 0 0
+/wp-content/themes/espressoshakespeare/style.css
+0 1 0 8461 0 0 0 0
+/wp-content/plugins/slidedeck2-personal/css/slidedeck.css
+0 1 0 10187 0 0 0 0
+/wp-login.php
+0 6 0 32155 1 0 0 0
+/wp-content/themes/espressoshakespeare/custom.css
+0 1 0 7955 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/colorbox/images/controls.png
+1 1 0 2164 0 0 0 0
+/wp-includes/js/jquery/jquery.js
+0 1 0 33444 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/css/jquery.ui.dialog.css
+0 1 0 565 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/css/jquery.ui.all.css
+0 1 0 215 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/colorbox/colorbox.css
+0 1 0 1491 0 0 0 0
+/wp-includes/js/jquery/ui/jquery.ui.widget.min.js
+0 1 0 2554 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/slides.min.jquery.js
+0 1 0 2418 0 0 0 0
+/wp-content/plugins/slidedeck2-personal/js/slidedeck-public.js
+0 1 0 41376 0 0 0 0
+/wp-content/themes/espressoshakespeare/images/misfit-inc.png
+1 1 0 1665 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/css/jquery.ui.core.css
+0 1 0 667 0 0 0 0
+/wp-content/plugins/slidedeck2-personal/js/slidedeck.jquery.js
+0 1 0 9023 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/jquery-ui-1.8.16.custom.min.js
+0 1 0 52981 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/content-loader.js
+0 1 0 923 0 0 0 0
+/wp-content/themes/espressoshakespeare/functions/js/shortcodes.js
+0 1 0 924 0 0 0 0
+/wp-content/themes/espressoshakespeare/includes/js/selectbox.js
+0 1 0 1466 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+59.63.158.195
+0 1 1 4939 1 1385860994
+- 0 0
+178.255.155.2
+0 57 57 916959 57 1386026853
+/ 0 0
+92.124.35.37
+0 1 1 5487 1 1385866584
+- 0 0
+37.57.25.225
+0 2 0 30436 2 1385951414
+- 0 0
+180.210.228.84
+0 1 1 46 0 0
+- 0 0
+94.46.4.1
+0 57 57 916959 57 1386026253
+/ 0 0
+46.161.41.99
+0 5 0 76090 5 1386004988
+- 0 0
+202.46.57.149
+0 1 1 16085 1 1385914849
+- 0 0
+82.103.128.63
+0 58 58 933046 58 1386027453
+/ 0 0
+50.23.94.74
+0 57 57 916959 57 1386026553
+/ 0 0
+208.115.113.85
+0 1 1 26 0 0
+- 0 0
+76.164.194.74
+0 58 57 916959 58 1386028653
+/ 0 0
+5.10.83.61
+0 1 1 46 0 0
+- 0 0
+64.202.161.41
+0 1 1 17952 1 1385999012
+/introduction 0 0
+64.202.161.45
+0 4 2 22404 1 1385999013
+/wp-login.php 0 0
+64.202.161.46
+0 1 0 0 1 1385999011
+- 0 0
+95.151.132.153
+0 36 36 218606 1 1385881532
+- 0 0
+184.75.210.186
+0 57 57 916959 57 1386025953
+/ 0 0
+74.105.162.32
+0 1 1 26 0 0
+- 0 0
+174.34.156.130
+0 58 58 933046 58 1386027753
+/ 0 0
+199.21.99.75
+0 3 3 78 0 0
+- 0 0
+95.242.201.167
+0 5 5 27695 1 1385859416
+- 0 0
+208.43.68.59
+0 58 58 933046 58 1386027153
+/ 0 0
+188.138.118.184
+0 58 58 933046 58 1386028053
+/ 0 0
+85.17.156.99
+0 58 58 933046 58 1386028353
+/ 0 0
+184.106.187.107
+0 56 56 0 48 1386028053
+/wp-cron.php 0 0
+144.76.109.109
+0 1 0 0 0 0
+- 0 0
+# End Of Table - sites (monthly)
+# -sites- (daily)
+178.255.155.2
+0 29 29 466523 29 1386026853
+/ 0 0
+37.57.25.225
+0 1 0 15218 1 1385951414
+- 0 0
+180.210.228.84
+0 1 1 46 0 0
+- 0 0
+94.46.4.1
+0 28 28 450436 28 1386026253
+/ 0 0
+46.161.41.99
+0 3 0 45654 3 1386004988
+- 0 0
+82.103.128.63
+0 29 29 466523 29 1386027453
+/ 0 0
+50.23.94.74
+0 29 29 466523 29 1386026553
+/ 0 0
+76.164.194.74
+0 29 29 466523 29 1386028653
+/ 0 0
+64.202.161.41
+0 1 1 17952 1 1385999012
+/introduction 0 0
+64.202.161.45
+0 4 2 22404 1 1385999013
+/wp-login.php 0 0
+64.202.161.46
+0 1 0 0 1 1385999011
+- 0 0
+184.75.210.186
+0 28 28 450436 28 1386025953
+/ 0 0
+74.105.162.32
+0 1 1 26 0 0
+- 0 0
+174.34.156.130
+0 29 29 466523 29 1386027753
+/ 0 0
+199.21.99.75
+0 1 1 26 0 0
+- 0 0
+208.43.68.59
+0 29 29 466523 29 1386027153
+/ 0 0
+188.138.118.184
+0 29 29 466523 29 1386028053
+/ 0 0
+85.17.156.99
+0 29 29 466523 29 1386028353
+/ 0 0
+184.106.187.107
+0 28 28 0 24 1386028053
+/wp-cron.php 0 0
+144.76.109.109
+0 1 0 0 0 0
+- 0 0
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 649
+http://espressoshakespeare.com/wp-content/themes/rezo/themify/
+1 2
+http://espressoshakespeare.com/wp-content/themes/basic/themify/
+1 1
+http://espressoshakespeare.com/wp-content/themes/sidepane/themify/
+1 1
+http://espressoshakespeare.com/wp-login.php
+1 5
+http://espressoshakespeare.com/wp-content/plugins/dzs-videogallery/admin/dzsuploader/
+1 1
+http://espressoshakespeare.com/wp-content/themes/minblr/themify/
+1 1
+http://espressoshakespeare.com/wp-content/themes/suco/themify/
+1 1
+http://espressoshakespeare.com/
+1 36
+# End Of Table - referrers
+# -agents- 
+Pingdom.com_bot_version_1.4_(http://www.pingdom.com/)
+0 576
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 3
+crawler4j (http://code.google.com/p/crawler4j/)
+0 1
+WordPress/3.5.1; http://espressoshakespeare.com
+0 56
+Mozilla/5.0 (Windows NT 6.1; rv:16.0) Gecko/20100101 Firefox/16.0
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)
+0 7
+Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)
+0 1
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; CrawlDaddy v0.3.0 abot v1.2.0.0 http://code.google.com/p/abot)
+0 2
+User-Agent\tMozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)
+0 4
+panscient.com
+0 1
+Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/953
+0 36
+Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0.1) Gecko/20100101 Firefox/8.0.1
+0 5
+nutch-1.4/Nutch-1.4
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 1
+IE:Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

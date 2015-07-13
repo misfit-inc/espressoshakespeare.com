@@ -1,0 +1,67 @@
+/* CSS Document */
+
+.mgm_register_field, .mgm_profile_field,.mgm_upgrade_field,.mgm_extend_field,.mgm_field_textarea{
+	background:#FBFBFB none repeat scroll 0 0; 
+	border:1px solid #E5E5E5; 
+	font-size:24px; 
+	margin-bottom:16px; 
+	margin-right:6px; 
+	margin-top:2px; 
+	padding:3px; 
+	width:97%;
+}
+
+.mgm_date{
+	width:45%;
+	font-style:oblique;
+}
+
+.mgm_paymod_description{
+	font-size:11px;
+	font-style:oblique;
+	text-align:justify;
+	margin-top:5px;
+}
+
+.mgm_field_html{
+	width:97%; 
+	height: 200px; 
+	overflow: auto; 
+	background: #FBFBFB; 
+	border:1px solid #E5E5E5; 
+	padding:3px; 
+	margin: 5px 0 5px 0;
+}
+
+/*used for element type label*/
+.mgm_field_label{
+}
+
+.mgm_field_textarea{
+	height:100px;
+}
+
+.mgm_subs_wrapper{
+	margin:10px 0px; 
+	overflow: auto;
+}
+
+.mgm_subs_option{
+	float: left; 
+	width: 25px;
+}
+
+.mgm_subs_pack_desc{
+	float: left; 
+	width: 245px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.mgm_subs_desc{
+	padding:10px 5px 5px 25px; 
+	color:#2888B5;
+	font-style:oblique;	
+}	

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:apachesoap="http://xml.apache.org/xml-soap"
+	xmlns:impl="http://wpws.devel.bkahlert.com" xmlns:model="http://model.wpws.devel.bkahlert.com"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns="http://schemas.xmlsoap.org/soap/encoding/"
+	targetNamespace="http://wpws.devel.bkahlert.com" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/"
+	xmlns:http="http://schemas.xmlsoap.org/wsdl/http/">
+	<wsdl:types>
+		<schema elementFormDefault="qualified" targetNamespace="http://model.wpws.devel.bkahlert.com"
+			xmlns="http://www.w3.org/2001/XMLSchema">
+			<import namespace="http://wpws.devel.bkahlert.com" />
+			<complexType name="Image">
+				<sequence>
+					<element name="parentId" type="xsd:int" />
+					<element name="url" nillable="true" type="xsd:string" />
+					<element name="width" type="xsd:int" />
+					<element name="height" type="xsd:int" />
+					<element name="resizeableUrl" nillable="true" type="xsd:string" />
+					<element name="maxResizeableWidth" type="xsd:int" />
+					<element name="maxResizeableHeight" type="xsd:int" />
+					<element name="title" nillable="true" type="xsd:string" />
+					<element name="description" nillable="true" type="xsd:string" />
+				</sequence>
+			</complexType>
+			<complexType name="Post">
+				<sequence>
+					<element name="id" type="xsd:int" />
+					<element name="author" nillable="true" type="xsd:string" />
+					<element name="date" nillable="true" type="xsd:dateTime" />
+					<element name="dateGmt" nillable="true" type="xsd:dateTime" />
+					<element name="content" nillable="true" type="xsd:string" />
+					<element name="title" nillable="true" type="xsd:string" />
+					<element name="excerpt" nillable="true" type="xsd:string" />
+					<element name="status" nillable="true" type="xsd:string" />
+					<element name="commentStatus" nillable="true" type="xsd:string" />
+					<element name="pingStatus" nillable="true" type="xsd:string" />
+					<element name="password" nillable="true" type="xsd:string" />
+					<element name="name" nillable="true" type="xsd:string" />
+					<element name="toPing" nillable="true" type="xsd:string" />
+					<element name="pinged" nillable="true" type="xsd:string" />
+					<element name="modified" nillable="true" type="xsd:dateTime" />
+					<element name="modifiedGmt" nillable="true" type="xsd:dateTime" />
+					<element name="contentFiltered" nillable="true" type="xsd:string" />
+					<element name="parentId" type="xsd:int" />
+					<element name="guid" nillable="true" type="xsd:string" />
+					<element name="menuOrder" type="xsd:int" />
+					<element name="type" nillable="true" type="xsd:string" />
+					<element name="mimeType" nillable="true" type="xsd:string" />
+					<element name="commentCount" type="xsd:int" />
+					<element name="filter" nillable="true" type="xsd:string" />
+				</sequence>
+			</complexType>
+			<complexType name="Page">
+				<complexContent>
+					<extension base="model:Post">
+						<sequence />
+					</extension>
+				</complexContent>
+			</complexType>
+			<complexType name="Gallery">
+				<sequence>
+					<element name="id" type="xsd:int" />
+					<element name="parentId" type="xsd:int" />
+					<element name="title" nillable="true" type="xsd:string" />
+					<element name="description" nillable="true" type="xsd:string" />
+					<element name="mainImage" nillable="true" type="model:Image" />
+					<element name="images" nillable="true" type="impl:ImageArray" />
+					<element name="subGalleries" nillable="true" type="impl:GalleryArray" />
+				</sequence>
+			</complexType>
+		</schema>
+		<schema elementFormDefault="qualified" targetNamespace="http://wpws.devel.bkahlert.com"
+			xmlns="http://www.w3.org/2001/XMLSchema">
+			<import namespace="http://model.wpws.devel.bkahlert.com" />
+			<complexType name="ImageArray">
+				<sequence>
+					<element maxOccurs="unbounded" minOccurs="0" name="item"
+						type="model:Image" />
+				</sequence>
+			</complexType>
+			<complexType name="PageArray">
+				<sequence>
+					<element maxOccurs="unbounded" minOccurs="0" name="item"
+						type="model:Page" />
+				</sequence>
+			</complexType>
+			<complexType name="PostArray">
+				<sequence>
+					<element maxOccurs="unbounded" minOccurs="0" name="item"
+						type="model:Post" />
+				</sequence>
+			</complexType>
+			<complexType name="GalleryArray">
+				<sequence>
+					<element maxOccurs="unbounded" minOccurs="0" name="item"
+						type="model:Gallery" />
+				</sequence>
+			</complexType>
+		</schema>
+	</wsdl:types>
+	<wsdl:message name="getPostsResponse">
+		<wsdl:part name="getPostsReturn" type="impl:PostArray" />
+	</wsdl:message>
+	<wsdl:message name="getPostResponse">
+		<wsdl:part name="getPostReturn" type="model:Post" />
+	</wsdl:message>
+	<wsdl:message name="getPagesResponse">
+		<wsdl:part name="getPagesReturn" type="impl:PageArray" />
+	</wsdl:message>
+	<wsdl:message name="getGalleryHierarchyRequest">
+		<wsdl:part name="args" type="xsd:string" />
+	</wsdl:message>
+	<wsdl:message name="getGalleriesResponse">
+		<wsdl:part name="getGalleriesReturn" type="impl:GalleryArray" />
+	</wsdl:message>
+	<wsdl:message name="getPagesRequest">
+		<wsdl:part name="args" type="xsd:string" />
+	</wsdl:message>
+	<wsdl:message name="getGalleryHierarchyResponse">
+		<wsdl:part name="getGalleryHierarchyReturn" type="impl:GalleryArray" />
+	</wsdl:message>
+	<wsdl:message name="getGalleriesRequest">
+		<wsdl:part name="args" type="xsd:string" />
+	</wsdl:message>
+	<wsdl:message name="getPostRequest">
+		<wsdl:part name="postId" type="xsd:int" />
+	</wsdl:message>
+	<wsdl:message name="getGalleryResponse">
+		<wsdl:part name="getGalleryReturn" type="model:Gallery" />
+	</wsdl:message>
+	<wsdl:message name="getGalleryRequest">
+		<wsdl:part name="galleryId" type="xsd:int" />
+	</wsdl:message>
+	<wsdl:message name="getImagesResponse">
+		<wsdl:part name="getImagesReturn" type="impl:ImageArray" />
+	</wsdl:message>
+	<wsdl:message name="getPostsRequest">
+		<wsdl:part name="args" type="xsd:string" />
+	</wsdl:message>
+	<wsdl:message name="getPageRequest">
+		<wsdl:part name="pageId" type="xsd:int" />
+	</wsdl:message>
+	<wsdl:message name="getPageResponse">
+		<wsdl:part name="getPageReturn" type="model:Page" />
+	</wsdl:message>
+	<wsdl:message name="getImagesRequest">
+		<wsdl:part name="galleryId" type="xsd:string" />
+		<wsdl:part name="includeSubGalleries" type="xsd:boolean" />
+	</wsdl:message>
+	<wsdl:portType name="WordPressWebServicePortType">
+		<wsdl:operation name="getImages" parameterOrder="galleryId includeSubGalleries">
+			<wsdl:input name="getImagesRequest" message="impl:getImagesRequest" />
+			<wsdl:output name="getImagesResponse" message="impl:getImagesResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="getPages" parameterOrder="args">
+			<wsdl:input name="getPagesRequest" message="impl:getPagesRequest" />
+			<wsdl:output name="getPagesResponse" message="impl:getPagesResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="getPage" parameterOrder="pageId">
+			<wsdl:input name="getPageRequest" message="impl:getPageRequest" />
+			<wsdl:output name="getPageResponse" message="impl:getPageResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="getPosts" parameterOrder="args">
+			<wsdl:input name="getPostsRequest" message="impl:getPostsRequest" />
+			<wsdl:output name="getPostsResponse" message="impl:getPostsResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="getPost" parameterOrder="postId">
+			<wsdl:input name="getPostRequest" message="impl:getPostRequest" />
+			<wsdl:output name="getPostResponse" message="impl:getPostResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="getGalleryHierarchy"
+			parameterOrder="args">
+			<wsdl:input name="getGalleryHierarchyRequest" message="impl:getGalleryHierarchyRequest" />
+			<wsdl:output name="getGalleryHierarchyResponse" message="impl:getGalleryHierarchyResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="getGalleries" parameterOrder="args">
+			<wsdl:input name="getGalleriesRequest" message="impl:getGalleriesRequest" />
+			<wsdl:output name="getGalleriesResponse" message="impl:getGalleriesResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="getGallery" parameterOrder="galleryId">
+			<wsdl:input name="getGalleryRequest" message="impl:getGalleryRequest" />
+			<wsdl:output name="getGalleryResponse" message="impl:getGalleryResponse" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="WordPressWebServiceSoapBinding" type="impl:WordPressWebServicePortType">
+		<wsdlsoap:binding style="rpc"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="getImages">
+			<wsdlsoap:operation soapAction="http://wpws.devel.bkahlert.com/getImages" />
+			<wsdl:input name="getImagesRequest">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:input>
+			<wsdl:output name="getImagesResponse">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getPages">
+			<wsdlsoap:operation soapAction="http://wpws.devel.bkahlert.com/getPages" />
+			<wsdl:input name="getPagesRequest">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:input>
+			<wsdl:output name="getPagesResponse">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getPage">
+			<wsdlsoap:operation soapAction="http://wpws.devel.bkahlert.com/getPage" />
+			<wsdl:input name="getPageRequest">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:input>
+			<wsdl:output name="getPageResponse">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getPosts">
+			<wsdlsoap:operation soapAction="http://wpws.devel.bkahlert.com/getPosts" />
+			<wsdl:input name="getPostsRequest">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:input>
+			<wsdl:output name="getPostsResponse">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getPost">
+			<wsdlsoap:operation soapAction="http://wpws.devel.bkahlert.com/getPost" />
+			<wsdl:input name="getPostRequest">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:input>
+			<wsdl:output name="getPostResponse">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getGalleryHierarchy">
+			<wsdlsoap:operation soapAction="http://wpws.devel.bkahlert.com/getGalleryHierarchy" />
+			<wsdl:input name="getGalleryHierarchyRequest">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:input>
+			<wsdl:output name="getGalleryHierarchyResponse">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getGalleries">
+			<wsdlsoap:operation soapAction="http://wpws.devel.bkahlert.com/getGalleries" />
+			<wsdl:input name="getGalleriesRequest">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:input>
+			<wsdl:output name="getGalleriesResponse">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getGallery">
+			<wsdlsoap:operation soapAction="http://wpws.devel.bkahlert.com/getGallery"></wsdlsoap:operation>
+			<wsdl:input name="getGalleryRequest">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com"></wsdlsoap:body>
+			</wsdl:input>
+			<wsdl:output name="getGalleryResponse">
+				<wsdlsoap:body use="literal" namespace="http://wpws.devel.bkahlert.com" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="WordPressWebService">
+		<wsdl:port name="WordPressWebServiceHttpSoapEndpoint"
+			binding="impl:WordPressWebServiceSoapBinding">
+			<wsdlsoap:address location="%{BLOG_URL}/index.php?/wpws" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
