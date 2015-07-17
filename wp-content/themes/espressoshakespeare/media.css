@@ -228,25 +228,7 @@ and (max-width: 860px) {
 	.popup-videos ul li.third-child {
 		margin-right: 0;
 	}
-
-}
-
-
-
-/* ================================================== 767 - 000 ================================================== */
-
-@media only screen
-and (max-width: 767px) {
 	
-	/* IOSSLIDER */
-	
-	body .iosSlider {
-		height: 300px !important;
-	}
-	
-	.slidetarget {
-		display: none;
-	}
 	
 	/* NAV */
 	
@@ -281,6 +263,28 @@ and (max-width: 767px) {
 	.nav li ul {
 		width: auto;
 	}
+
+}
+
+
+
+/* ================================================== 767 - 000 ================================================== */
+
+@media only screen
+and (max-width: 767px) {
+	
+	/* IOSSLIDER */
+	
+	body .iosSlider {
+		height: 300px !important;
+	}
+	
+	.slidetarget {
+		display: none;
+	}
+	
+	
+	/* NAV - MOBILE */
 	
 	#topnavmenu li.choose {
 		background: url("images/nav3bar2.png") no-repeat scroll 25px 22px transparent;
@@ -451,6 +455,63 @@ and (max-width: 599px) {
 		padding: 0 0 0 35px;
 	}
 	
+	
+	/* HEADER */
+	
+	.header-wrapper {
+		height: 105px;
+	}
+	
+	.page-template-template-espresso-php .header-wrapper,
+	.page-template-template-introduction-page-php .header-wrapper {
+		height: 166px;
+	}
+	
+	.mp-link {
+		display: block;
+		float: none;
+		font-size: 16px;
+		height: 50px;
+		line-height: 50px;
+		padding: 0;
+		text-align: center;
+	}
+	
+	.logos {
+		float: none;
+		margin: 1px auto 0;
+		width: 261px;
+	}
+	
+	.misfit_inclogo {
+		background: url("images/misfitlogo2.png") no-repeat scroll 0 0 transparent;
+		height: 25px;
+		margin: 14px 0 0;
+		width: 70px;
+	}
+	
+	.aqa_logo {
+		background-size: 100% auto;
+		height: 28px;
+		margin: 10px 20px 0;
+		width: 80px;
+	}
+	
+	.page-template-template-espresso-php .shakespeare-birthplace-trust,
+	.page-template-template-register-php .shakespeare-birthplace-trust,
+	.page-template-template-standard-php .shakespeare-birthplace-trust,
+	.shakespeare-birthplace-trust {
+		background: url("images/sbt-logo2.png") no-repeat scroll 0 0 transparent;
+		height: 34px;
+		margin: 9px 0 0;
+		width: 69px;
+	}
+	
+	#top-nav.nav.mobile {
+		top: 105px;
+	}
+	
+	
 	/* IOSSLIDER */
 	
 	.fa-angle-left::before, .fa-angle-right::before {
@@ -516,53 +577,6 @@ and (max-width: 599px) {
 @media only screen
 and (max-width: 479px) {
 
-	/* HEADER */
-	
-	.header-wrapper {
-		height: 105px;
-	}
-	
-	.page-template-template-espresso-php .header-wrapper,
-	.page-template-template-introduction-page-php .header-wrapper {
-		height: 166px;
-	}
-	
-	.mp-link {
-		display: block;
-		float: none;
-		font-size: 16px;
-		height: 50px;
-		line-height: 50px;
-		padding: 0;
-		text-align: center;
-	}
-	
-	.logos {
-		float: none;
-		margin: 1px auto 0;
-		width: 160px;
-	}
-	
-	.misfit_inclogo {
-		background: url("images/misfitlogo2.png") no-repeat scroll 0 0 transparent;
-		height: 25px;
-		margin: 14px 0 0;
-		width: 70px;
-	}
-	
-	.page-template-template-espresso-php .shakespeare-birthplace-trust,
-	.page-template-template-register-php .shakespeare-birthplace-trust,
-	.page-template-template-standard-php .shakespeare-birthplace-trust,
-	.shakespeare-birthplace-trust {
-		background: url("images/sbt-logo2.png") no-repeat scroll 0 0 transparent;
-		height: 34px;
-		margin: 9px 0 0;
-		width: 69px;
-	}
-	
-	#top-nav.nav.mobile {
-		top: 105px;
-	}
 	
 	/* IOSSLIDER */
 	
