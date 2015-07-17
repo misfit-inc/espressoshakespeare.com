@@ -147,17 +147,28 @@ h1, h2, h3, h4, h5, h6, .post .title, #slide-nav li a span.info .title, .widget 
 .shakespeare-birthplace-trust {
 	background: url("images/sbt-logo.png") no-repeat scroll 0 0 transparent;
 	display: block;
+	float: left;
 	height: 41px;
 	margin: 113px auto 0 10px;
 	width: 82px;
 }
+
+.aqa_logo {
+	background: url("images/aqa.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	float: right;
+	height: 32px;
+	margin: 12px 20px 0 0;
+	width: 92px;
+}
+
 	
 .misfit_inclogo {
 	background: url("images/misfitlogo.png") no-repeat scroll 0 0 transparent;
 	display: block;
-	float: left;
+	float: right;
 	height: 30px;
-	margin: 14px 20px 0 0;
+	margin: 15px 20px 0 0;
 	width: 81px;
 }
 

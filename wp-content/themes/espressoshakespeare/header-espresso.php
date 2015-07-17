@@ -265,6 +265,7 @@ window.addEvent('domready',function(){
 			
 			<div class="logos">
 				<a class="shakespeare-birthplace-trust" href="http://shakespeare.org.uk" target="_blank"><span class="dn">Shakespeare Birthplace Trust</span></a>
+				<a class="aqa_logo" href="http://www.aqa.org.uk/" target="_blank"><span class="dn">AQA</span></a>
 				<a class="misfit_inclogo" href="http://www.misfit-inc.com/" target="_blank"><span class="dn">Misfit Incorporated</span></a>
 			</div>
 			
