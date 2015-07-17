@@ -161,7 +161,7 @@ window.addEvent('domready',function(){
 <script>
 
 	$(document).ajaxComplete(function(){
-		
+		/*
 		$("a.cboxElement").each(function() {
 			$(this).attr('id', $(this).text().toLowerCase().replace(/[\*\^\'\!]/g, '').split(' ').join('-'));
 		});
@@ -186,7 +186,7 @@ window.addEvent('domready',function(){
 		// }
 		
 		
-
+*/
 	});
 	
 	// $(document).ready(function(){
