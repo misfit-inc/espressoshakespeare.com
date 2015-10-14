@@ -157,7 +157,7 @@ if ( ! function_exists( 'woo_get_query_context' ) ) {
 		
 		} // End IF Statement
 		
-		$query_context->context = array();
+//		$query_context->context = array();
 	
 		/* Front page of the site. */
 		if ( is_front_page() ) {
