@@ -628,6 +628,10 @@ body.page-template-template-espresso-php {
 .listespresso li:hover img {
 	opacity: 0.8;
 }
+
+.credit {
+	text-align: right;
+}
 	
 /*----------------------------------------------------
 			PAGE
