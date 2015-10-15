@@ -93,7 +93,8 @@ h1, h2, h3, h4, h5, h6, .post .title, #slide-nav li a span.info .title, .widget 
 }
 
 .header-wrapper {
-	height: 60px;
+	/*height: 60px;*/
+	height: 75px;
 	overflow: hidden;
 }
 
@@ -104,8 +105,10 @@ h1, h2, h3, h4, h5, h6, .post .title, #slide-nav li a span.info .title, .widget 
 	font-family: iowanoldst_btroman,sans-serif;
 	font-size: 18px;
 	font-style: italic;
-	height: 60px;
-	line-height: 60px;
+	/*height: 60px;
+	line-height: 60px;*/
+	height: 75px;
+	line-height: 75px;
 	padding: 0 18px 0 15px;
 }
 	.mp-link:hover {
@@ -154,12 +157,12 @@ h1, h2, h3, h4, h5, h6, .post .title, #slide-nav li a span.info .title, .widget 
 }
 
 .aqa_logo {
-	background: url("images/aqa.png") no-repeat scroll 0 0 transparent;
+	background: url("images/aqa2.png") no-repeat scroll 0 0 transparent;
 	display: block;
 	float: right;
-	height: 32px;
+	height: 52px;
 	margin: 12px 20px 0 0;
-	width: 92px;
+	width: 97px;
 }
 
 	
@@ -781,7 +784,8 @@ body.page-template-template-espresso-php {
 	font-size: 16px;
 	font-weight: normal;
 	height: auto;
-	line-height: 60px;
+	/*line-height: 60px;*/
+	line-height: 75px;
 	padding: 0 0 0 105px;
 	width: auto;
 	display: block;
@@ -818,7 +822,8 @@ body.page-template-template-espresso-php {
 	border: 0 none;
 	display: block;
 	float: left;
-	height: 60px;
+	/*height: 60px;*/
+	height: 75px;
 	left: 202px;
 	margin: 0;
 	max-width: none;
