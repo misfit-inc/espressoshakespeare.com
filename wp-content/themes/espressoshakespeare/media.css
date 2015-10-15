@@ -102,7 +102,7 @@ and (max-width: 1023px) {
 	/* NAV */
 	
 	#top-nav li.choose {
-		background: url("images/nav3bar2.png") no-repeat scroll 15px 22px #fff;
+		background: url("images/nav3bar2.png") no-repeat scroll 15px 30px #fff;
 	}
 	
 	.nav a:hover, .nav li.menu-item-type-custom a, .nav li.current_page_item a, .nav li.current_page_parent a, .nav li.current-menu-ancestor a, .nav li.current-menu-item a, .nav li.sfHover {
@@ -248,7 +248,7 @@ and (max-width: 860px) {
 		border-top: 1px solid #ccc;
 		display: block;
 		left: 0;
-		top: 60px;
+		top: 75px;
 		width: 100%;
 	}
 	
@@ -459,7 +459,7 @@ and (max-width: 599px) {
 	/* HEADER */
 	
 	.header-wrapper {
-		height: 105px;
+		height: 106px;
 	}
 	
 	.page-template-template-espresso-php .header-wrapper,
@@ -492,7 +492,8 @@ and (max-width: 599px) {
 	
 	.aqa_logo {
 		background-size: 100% auto;
-		height: 28px;
+		/*height: 28px;*/
+		height: 45px;
 		margin: 10px 20px 0;
 		width: 80px;
 	}

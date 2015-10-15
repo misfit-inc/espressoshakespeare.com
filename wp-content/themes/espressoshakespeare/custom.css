@@ -747,7 +747,8 @@ body.page-template-template-espresso-php {
 
 .nav li {
 	float: none;
-	height: 60px;
+	/*height: 60px;*/
+	height: 75px;
 	width: auto;
 }
 
@@ -833,7 +834,7 @@ body.page-template-template-espresso-php {
 }
 
 #top-nav li.choose {
-	background: url("images/nav3bar.png") no-repeat scroll 30px 22px transparent;
+	background: url("images/nav3bar.png") no-repeat scroll 30px 30px transparent;
 }
 
 #top-nav li.choose > a {
