@@ -2417,3 +2417,9 @@ body.page-id-841 #content {
 	margin-top: 30px;
 }
 
+.col-full.privacy {
+	text-align: center;
+    position: relative;
+    top: -25px;
+}
+
